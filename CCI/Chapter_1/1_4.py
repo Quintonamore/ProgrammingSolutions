@@ -1,6 +1,9 @@
 # CCI Chapter 1 Problem 4
 # Pallindrome permutation, checks to see if the two given strings are the same forwards and backwards.
 
+# Value to count the only odd pairing available
+odd_pairing = 0
+
 def find_other_letter(str):
 
     first_char = str[0]
@@ -17,7 +20,7 @@ def find_other_letter(str):
         return 0
     elif len(str):
         find_other_letter(str)
-    else:
+    elif :
         return 1
 
 word = input("Input the string to be tested")
